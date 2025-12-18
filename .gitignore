@@ -1,4 +1,23 @@
-/.vscode
+build/
+cmake-build-*/
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Ignore editor temporary files
+*.o
+*.obj
 *.exe
-/bin
-/obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+run
+GPT
+
+.vscode/
